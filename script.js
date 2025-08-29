@@ -73,3 +73,6 @@ for (let i = 1; i <= 9; i++) {
 }
 
 
+document.getElementById('clearBtn').addEventListener('click', function () {
+  document.getElementById('clearAll').innerHTML = ''
+})
